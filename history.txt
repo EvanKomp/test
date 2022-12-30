@@ -9,3 +9,4 @@ nano start_history_pushing.sh
 bash start_history_pushing.sh 
 echo hello
 source start_history_pushing.sh 
+echo hello
