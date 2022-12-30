@@ -1,1 +1,2 @@
 source start_history_pushing.sh 
+echo test
