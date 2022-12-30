@@ -1,1 +1,2 @@
 rm history.txt 
+git add start_history_pushing.sh 
