@@ -3,3 +3,4 @@ nano push_history.sh
 cat history.txt 
 cat history.txt 
 export PROMPT_COMMAND="history -a; history -c; history -r; git add history.txt; git commit --quiet -m 'updating'; git push; $PROMPT_COMMAND"
+export PROMPT_COMMAND="history -a; history -c; history -r; git add history.txt; git commit --quiet -m 'updating'; git push --quiet; $PROMPT_COMMAND"
