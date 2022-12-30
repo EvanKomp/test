@@ -1,12 +1,11 @@
-rm history.txt 
-cat history.txt 
-export PROMPT_COMMAND="history -a; history -c; history -r; git add history.txt; git commit --quiet -m 'updating'; git push --quiet; $PROMPT_COMMAND"
-cat history.txt 
 export PROMPT_COMMAND=""
-git add history.txt 
-git commit --quiet -m "test"
-git commit --quiet -m "test" &> /dev/null
-git push &> /dev/null
-export PROMPT_COMMAND="history -a; history -c; history -r; git add history.txt; git commit --quiet -m 'updating' &> /dev/null; git push --quiet &> /dev/null; $PROMPT_COMMAND"
+rm history.txt 
+ls
+rm push_history.sh 
+bash start_history_pushing.sh 
 echo hello
+echo "does this work"
 nano start_history_pushing.sh
+bash start_history_pushing.sh 
+echo hello
+source start_history_pushing.sh 
