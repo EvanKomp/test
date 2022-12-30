@@ -1,15 +1,1 @@
-export PROMPT_COMMAND=""
 rm history.txt 
-ls
-rm push_history.sh 
-bash start_history_pushing.sh 
-echo hello
-echo "does this work"
-nano start_history_pushing.sh
-bash start_history_pushing.sh 
-echo hello
-source start_history_pushing.sh 
-echo hello
-echo try again
-at history.txt 
-cat history.txt 
