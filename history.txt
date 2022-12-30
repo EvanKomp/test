@@ -12,3 +12,4 @@ source start_history_pushing.sh
 echo hello
 echo try again
 at history.txt 
+cat history.txt 
