@@ -1,4 +1,1 @@
-rm history.txt 
-git add start_history_pushing.sh 
-git commit -m "script to start pushing history"
-nano start_history_pushing.sh 
+source start_history_pushing.sh 
