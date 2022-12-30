@@ -1,1 +1,2 @@
 rm history.txt 
+cat history.txt 
